@@ -111,14 +111,41 @@ li img {
 
 
 
+/* for bigger screen */
 
-
-
-
-
-
-
-
+@media(min-width:48em){
+    body{
+        background-color: hsl(0, 0%, 97%);
+    }
+    .topSec{
+        width : 60%;
+        max-width: 100vh;
+        margin: auto;
+    }
+    ul{
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        /* gap : 30px; */
+        grid-column-gap: 100px;
+        grid-row-gap: 10px;
+        margin-right: 20em;
+        margin-top: 20px;
+        
+    }
+    .supervisor{
+        grid-area: 2 / 1 / 4 / 2;
+    }
+    
+    .team{
+        grid-area: 1 / 2 / 3 / 3;;
+    }
+    .karma{
+        grid-area: 3 / 2 / 5 / 3;
+    }
+    .calculator{
+        grid-area: 2 / 3 / 4 / 4;; 
+    }
+}
 
 
 
