@@ -121,15 +121,15 @@ li img {
         width : 60%;
         max-width: 100vh;
         margin: auto;
+        margin-top: 2em;
     }
     ul{
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(3, 1fr);
-        /* gap : 30px; */
-        grid-column-gap: 100px;
-        grid-row-gap: 10px;
+        grid-column-gap: 5em;
+        grid-row-gap: 1em;
         margin-right: 20em;
-        margin-top: 20px;
+        margin-top: 2em;
         
     }
     .supervisor{
